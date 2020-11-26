@@ -19,7 +19,7 @@ function check_input($value)
 return $value;
 }
 
-$con = mysqli_connect("localhost", "root", "");
+$con = mysqli_connect("localhost", "root", "",'technotip');
 if (!$con)
   {
   die('Could not connect: ' . mysqli_error());
